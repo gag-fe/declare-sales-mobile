@@ -1,0 +1,460 @@
+/**
+ * 国际化资源文件索引命名规范：
+ * - 全局公用资源：global.xxx
+ * - 模块所属资源：moduleName.xxx
+ * - 页面所属资源：pageName.xxx
+ */
+'use strict';
+
+module.exports = {
+    'global.bankName': 'Bank Name',
+    'global.bankAccount': 'Bank Account',
+    'global.editData': 'Edit',
+    'global.delData': 'Delete',
+    'global.viewData': 'View',
+    'global.pleaseSelect': 'Please select',
+    'global.queryData': 'Query',
+    'global.addData': 'Add',
+    'global.saveData': 'Save',
+    'global.balance': "余额",
+    'global.bankDetail': "流水",
+    'global.pleaseInput': "Please input",
+    'global.bankAccData': "Bank Account:",
+    'global.bankNameD': "Bank:",
+    'global.bankNatureD': "银行性质:",
+    'global.currecyD': "Currency:",
+    'global.accountOwnerD': "Account Owner:",
+    'global.ClosiLevelD': "Closing Level:",
+    'global.ChartOfAccountD': "Bank Chart of Account:",
+    'global.descripitonD': "Description:",
+    'global.accountingTemplateD': "Accounting Template:",
+    'global.accountingTemplateName': "Name",
+    'global.accountingTemplateStatus': "Status",
+    'global.accountingTemplateC': "Created By",
+    'global.accountingTemplateDes': "Description",
+    'global.accountingTemplateOperation': "Operation",
+    'global.accountingTempSuc': "有效",
+    'global.accountingTempErr': "失效",
+    'global.businessType': "Business Type:",
+    'global.appliedBank': "Applied Bank:",
+    'global.businessTypeN': "Name",
+    'global.appliedBankN': "Applied Bank",
+    'global.defaultAccountingTemplate': "Default Accounting Template",
+    'global.defaultAccountingTemplateD': "Default Accounting Template:",
+    'global.chartofAccountK': "Chart of Account",
+    'global.percentageK': "Percentage",
+    'global.accountingTemplateN': "Accounting Tempalte",
+    'global.tempalteInformationM': "Tempalte Information",
+    'global.tempalteInformationN': "Name:",
+    'global.yesOrNoYes': "YES",
+    'global.yesOrNoNo': "NO",
+    'global.coaAtucture': "COA Structure:",
+    'global.cashFlowCodeM': "Cash Flow Code:",
+    'global.lockkMudan': "Lock Nature Account:",
+    'global.accuntForD': "Accounting Information",
+    'global.accountTatolD': "有效行金额比例总和：",
+    'global.accountKjkmzhD': "会计科目组合",
+    'global.accountJhbl': "金额比例（基金为流水金额）",
+    'global.yesOrNoStatus': "Status",
+    'global.yesOrNoStatusY': "Valid",
+    'global.yesOrNoStatusN': "Invalid",
+    'global.accountingYesOrNO': "Valid:",
+    'global.businessTypeM': "Business Type",
+    'global.businessTypeT': "Business Type",
+    'global.defaultAccountingTemplateS': "请选择默认入账模板",
+    'global.transactionTypeD': "Bank  Transaction Match Criteria - Desciription:",
+    'global.SpecialOU': "Special OU",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    'fund.entry.UNPROCESS': 'New',
+    'fund.entry.APPROVING': 'Submitted',
+    'fund.entry.APPROVED': 'Approved',
+    'fund.entry.CLIAM': '认领',
+    'fund.entry.REVERSE': '冲销',
+    'fund.entry.APPROVED_AGREE': '审批通过',
+    'fund.entry.APPROVED_REJECT': '审批拒绝',
+
+
+
+    'check.index.TMI_UN_PROCESSED_CLAIMED_DATA' :"TMI has data which did not claimed",
+    'check.index.TMI_UN_POSTED_ERP_DATA': "TMI has data which did not posted to ERP",
+    'check.index.AP_UN_POSTED_ERP_DATA': "AP has data which did not posted to ERP",
+    'check.index.AP_UN_MATCHED_BUSI_TRANSINFO': "AP has unmatched business transaction information",
+    'check.index.TMI_UN_MATCHED_BUSI_TRANSINFO': "TMI has unmatched business transaction information",
+    'check.index.ERP_UN_CLAIMED_DATA': "ERP has data which is not claimed",
+    'check.index.ERP_UN_POSTED_DATA': "ERP has data which is not posting",
+
+    'check.index.TO_TMI_DEAL_THIS_DATA': "please to tmi deal this data",
+    'check.index.TO_AP_DEAL_THIS_DATA': "please to ap deal this data",
+    'check.index.TO_EDIT_OR_CLAIM_IT': "please to edit trade number or claim it",
+    'check.index.TO_CLAIM_THIS_CERT': "please to claim this cert",
+    'check.index.TO_GL_DEAL_THIS_DATA': "please to gl deal this data",
+
+    //----------------gl------------------
+    'flow.claim.detail.BANK_TRANSACTION_DATA': "Bank Transaction",
+    'bank.home.NATURE_DATA': "Nature",
+    'bank.home.CURRENCY_DATA': "Currency",
+    'bank.home.CLOSING_LEVEL_DATA': "Closing Level",
+    'bank.home.BANK_CHART_DATA': "Bank Chart of Account",
+    'bank.home.DESCRIPTION': "Description",
+    'bank.home.OPERATION': "Operation",
+    'bank.home.OUSEARCH_DATA': "ou查询失败",
+    'bank.home.BANKSEARCH_DATA': "银行名称查询失败",
+    'bank.home.BANKACCOUNTSEARCH_DATA': "银行账号查询失败",
+    'bank.home.BANKNAME_DOT': "Bank:",
+    'bank.home.BANK_ACCOUNT_DATA': "Bank Account:",
+    'bank.home.BANK_NATURE_DATA': "Nature:",
+    'bank.detail.BANK_ACCOUNT_DATA': "Bank Account:",
+    'bank.detail.BANK_ACCOUNT_INFORMATION_DATA': "Bank Account Financial Information",
+    'bank.detail.CURRENCY_DATA': "Currency:",
+    'bank.detail.ACCOUNT_OWNER_DATA': "Account Owner:",
+    'bank.detail.CLOSING_LEVEL_DATA': "Closing Level:",
+    'bank.detail.CHART_OF_ACCOUNT_DATA': "Chart of Account:",
+    'bank.detail.DESCRIPTION_DOT': "Description:",
+    'bank.detail.BANK_ACCOUNT_SEL': "请选择银行账号:",
+    'bank.detail.ACCOUNT_OWNER_SEL': "请选择账户管理员:",
+    'bank.detail.CLOSING_LEVEL_SEL': "请选择关联检查层级:",
+    'bank.detail.BANK_SUB_SEL': "请选择银行科目:",
+    'bank.detail.CHART_OF_ACCOUNT_D': "Chart of Account",
+    'bank.accountDetail.ACCOUNT_FINANCIAL': "View Bank Account Financial Information",
+    'entry.detail.AMOUNT_PROP': "有效行金额比例总和必须是100%",
+    'entry.detail.ADDHANGXX': "请添加行信息",
+    'entry.detail.ACCMONEYZUHE': "请填写会计科目组合",
+    'entry.detail.ACCMONEYBILI': "请填写金额比例",
+    'entry.detail.ACCMONEYERRH': "有效行金额比例总和要小于100",
+    'entry.detail.YESORNOX': "Status",
+    'entry.detail.YESORNOXY': "Valid",
+    'entry.detail.YESORNOXN': "Invalid",
+    'entry.detail.ADDHANG': "Add Line",
+    'entry.detail.AMOUNT_MROPN': "有效行金额比例总和不能超过100%",
+    'entry.detail.TEMPBO_NAME': "请填写模板名称",
+    'entry.detail.COA_STUCTURE_DATA': "COA Structure:",
+    'entry.detail.COA_STUCTURE_SEL': "请选择COA结构",
+    'entry.detail.CASH_FLOW_CODED': "Cash Flow Code:",
+    'entry.detail.CASH_FLOW_CODESEL': "请选择现金流量代码",
+    'entry.detail.KEMUDUANSEL': "请选择锁定科目段",
+    'entry.detail.LOCKNATUREACCOUTN': "Lock Nature Account:",
+    'entry.detail.ACCNATUREOUTNSTATUS': "Status:",
+    'entry.detail.ACCNATUREOUTNSTATUSSEL': "请选择是否有效",
+    'entry.detail.ACCOUNTINGIFOR_DATA': "Accounting Information",
+    'entry.detail.ACCOUNTINGIFOR_TOTOL': "有效行金额比例总和：",
+    'entry.detail.ACCOUNTINGIFOR_SUBMIT': "Submit",
+    'entry.detail.ACCOUNTINGIFOR_KJKMZH': "会计科目组合",
+    'entry.templateDetail.VIEWACCTEMPALTE': "入账模板明细",
+    'entry.templateDetail.ACCNATUREOUTNYESORNO': "Status:",
+    'entry.templateApprove.ACCOUNTINGTEMPINFORMA': "Accounting Template Information",
+    'biz.detail.pleaseSelBank': "请选择使用银行",
+    'biz.detail.tradingErrOne': "交易类型不可含有中文分号",
+    'biz.detail.tradingErrTwo': "同一OU不允许添加两个个性化模板",
+    'biz.detail.tradingErrThree': "请填业务类型名称",
+    'biz.detail.addLine': "Add Line",
+    'biz.detail.tradingErrFour': "请输入(不同类别用英文分号隔开)",
+    'biz.detail.tradingErrFive': "这些OU将优先使用以下模板",
+    'biz.templateDetail.viewBusinessType': "View Business Type",
+    'biz.templateDetail.ouDefineTempbo': "所有OU默认使用此模板",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //--------------lzd--------------------
+
+    //
+    'global.bankAccount': 'Bank Account',
+    'global.bankAccData': "Bank Account:",
+    'global.editData': 'Edit',
+    'global.delData': 'Delete',
+    'global.viewData': 'View',
+    'global.pleaseSelect': 'Please select',
+    'global.queryData': 'Query',
+    'global.addData': 'Add',
+    'global.saveData': 'Save',
+    'global.balance': "余额",
+    'global.bankDetail': "流水",
+    'global.pleaseInput': "Please input",
+
+
+    'global.bankNameD': "Bank:",
+    'global.bankNatureD': "银行性质:",
+    'global.currecyD': "Currency:",
+    'global.accountOwnerD': "Account Owner:",
+    'global.ClosiLevelD': "Closing Level:",
+    'global.ChartOfAccountD': "Bank Chart of Account:",
+    'global.descripitonD': "Description:",
+    'global.accountingTemplateD': "Accounting Template:",
+    'global.accountingTemplateName': "Name",
+    'global.accountingTemplateStatus': "Status",
+    'global.accountingTemplateC': "Created By",
+    'global.accountingTemplateDes': "Description",
+    'global.accountingTemplateOperation': "Operation",
+    'global.accountingTempSuc': "有效",
+    'global.accountingTempErr': "失效",
+    'global.businessType': "Business Type:",
+    'global.appliedBank': "Applied Bank:",
+    'global.businessTypeN': "Name",
+    'global.appliedBankN': "Applied Bank",
+    'global.defaultAccountingTemplate': "Default Accounting Template",
+    'global.chartofAccountK': "Chart of Account",
+    'global.percentageK': "Percentage",
+    'global.accountingTemplateN': "Accounting Tempalte",
+    'global.tempalteInformationM': "Tempalte Information",
+    'global.tempalteInformationN': "Name:",
+    'global.yesOrNoYes': "YES",
+    'global.yesOrNoNo': "NO",
+    'global.coaAtucture': "COA Structure:",
+    'global.cashFlowCodeM': "Cash Flow Code:",
+    'global.lockkMudan': "Lock Nature Account:",
+    'global.accuntForD': "Accounting Information",
+    'global.accountTatolD': "有效行金额比例总和：",
+    'global.accountKjkmzhD': "会计科目组合",
+    'global.accountJhbl': "金额比例（基金为流水金额）",
+    'global.yesOrNoStatus': "Status",
+    'global.yesOrNoStatusY': "Valid",
+    'global.yesOrNoStatusN': "Invalid",
+    'global.accountingYesOrNO': "Valid:",
+    'global.businessTypeM': "Business Type",
+    'global.businessTypeT': "Business Type",
+
+
+
+
+    //--------------lzd--------------------
+    'global.sourceType':"Source",
+    'global.transactionDate': "Transaction Date",
+    'global.transactionType': "Transaction Type",
+    'global.paymentAmount':"Payment Amount",
+    'global.receiptAmount':"Receipt Amount",
+    'global.description':"Description",
+    'global.period':"Period",
+    'global.transactionNo':"Transaction No",
+    'global.referenceNo':"Reference No",
+    'global.partyBank':"Party Bank",
+    'global.partyBankAccount':"Party Bank Account",
+    'global.partyBankHolder':"Party Bank Account Holder",
+    'global.supplier':"Supplier",
+    'global.transactionDetail':"Transaction Detail",
+    'global.detail':"Detail",
+    'global.date':"Date",
+    'global.advancedQueryBar':"Advanced Query",
+    'global.view':"View",
+    'global.viewDetail':"View Detail",
+    'global.reverse':"Reverse",
+    'global.submit':"Submit",
+    'global.confirm':"Confirm",
+    'global.submitSuccess':"提交成功！",
+    'global.editSuccess':"修改成功！",
+    'global.processor':"Processor",
+    'global.reverseBalance':"冲账",
+    'global.recorded':"入账",
+    'global.save':"Save",
+    'global.claim':"Claim",
+    'global.approveAgree':"审批通过",
+    'global.approveReject':"审批拒绝",
+    'global.pleaseSelectDate':"请选择日期",
+    'global.UNPROCESS':"New",
+    'global.APPROVING':"Submitted",
+    'global.APPROVED':"Approved",
+    'global.minValue':"最小值",
+    'global.maxValue':"最大值",
+    'global.inputNumber':"输入数字",
+    'global.pleaseSelectOne':"请至少选择一行",
+    'global.pleaseQuery':"请按条件查询内容!",
+    'global.checkBox':"Checkbox",
+    'gloabl.close':"Close",
+
+    'global.sourceType':"Source",
+    'global.transactionDate': "Transaction Date",
+    'global.transactionType': "Transaction Type:",
+    'global.paymentAmount':"Payment Amount",
+    'global.receiptAmount':"Receipt Amount",
+    'global.description':"Description",
+    'global.period':"Period",
+    'global.transactionNo':"Transaction No",
+    'global.referenceNo':"Reference No",
+    'global.partyBank':"Party Bank",
+    'global.partyBankAccount':"Party Bank Account",
+    'global.partyBankHolder':"Party Bank Account Holder",
+    'global.supplier':"Supplier",
+    'global.transactionDetail':"Transaction Detail",
+    'global.detail':"Detail",
+    'global.date':"Date",
+    'global.advancedQueryBar':"Advanced Query",
+    'global.view':"View",
+    'global.viewDetail':"View Detail",
+    'global.reverse':"Reverse",
+    'global.submit':"Submit",
+    'global.confirm':"Confirm",
+    'global.submitSuccess':"提交成功！",
+    'global.editSuccess':"修改成功！",
+    'global.processor':"Processor",
+    'global.reverseBalance':"冲账",
+    'global.recorded':"入账",
+    'global.save':"Save",
+    'global.claim':"Claim",
+    'global.approveAgree':"审批通过",
+    'global.approveReject':"审批拒绝",
+    'global.pleaseSelectDate':"请选择日期",
+    'global.UNPROCESS':"New",
+    'global.APPROVING':"Submitted",
+    'global.APPROVED':"Approved",
+    'global.minValue':"最小值",
+    'global.maxValue':"最大值",
+    'global.inputNumber':"输入数字",
+    'global.pleaseSelectOne':"请至少选择一行",
+    'global.pleaseQuery':"请按条件查询内容!",
+    'global.checkBox':"Checkbox",
+    'gloabl.close':"Close",
+    'global.total':"Total:",
+
+
+    //
+    //-----------------流水导入
+    'flow.import.ALL': "ALL",
+    'flow.import.GATE_WAY': "GATE_WAY",
+    'flow.import.MANUAL':"MANUAL",
+    'flow.import.deleted':"Deleted",
+    'flow.import.confirmDelete':"Are you sure to delete this transaction？",
+    'flow.import.deleteBar':"Delete Transaction",
+    'flow.import.flowImport':"Import Bank Transaction",
+    'flow.import.batchUpload':"Batch Upload",
+    'flow.import.bankAccount':"Bank/Alipay Account:",
+    'flow.import.accountPeriod':"Period：",
+    'flow.import.sourceTypeSelect':"Source：",
+    'flow.import.beginBalance':"Beginning Balance：",
+    'flow.import.endBalance':"Ending Balance：",
+    'flow.import.currency':"Currency：",
+    'flow.import.asOfDate':"As of Date：",
+    'flow.import.downloadLatestTemple':"Please download latest tempalte",
+    'flow.import.batchUploadBar':"Upload",
+    'flow.import.importTime':"Import Time",
+    'flow.import.notSelectAnyLine':"您还没有选择任何行",
+    'flow.import.pleaseInputSelect':"请输入选择",
+
+    //-----------------流水导入
+
+    //-----------------流水认领-入账平台
+    'fund.entry.paymentAmountRange':"付款金额范围:",
+    'fund.entry.receiptAmountRange':"收款金额范围:",
+    'fund.entry.pleaseSelectThenOper':"请在当前页面选中流水后直接进行批量操作，",
+    'fund.entry.changePageThen':"翻页后前一页面选中的流水将会被取消选中",
+    'fund.entry.editAccountingTempalte':"Edit Accounting Tempalte",
+    'fund.entry.pleaseSelectTemp':"请选择入账模板",
+    'fund.entry.reverseDate':"Reverse Date：",
+    'fund.entry.history':"History",
+
+    //-----------------流水认领-入账平台
+    //
+    'claim.detail.erpDocumentNumber':"ERP Document Number：",
+    'claim.detail.erpJournalLineNo':"ERP Journal Line No：",
+    'claim.detail.erpBatchName':"ERP Batch Name：",
+    'claim.detail.erpJournalName':"ERP Journal Name：",
+    'claim.detail.glDate':"GL Date",
+    'claim.detail.category':"Category",
+    'claim.detail.COA':"COA",
+    'claim.detail.debit':"Debit",
+    'claim.detail.crdit':"Crdit",
+    'claim.detail.accountingHistory':"Accounting History",
+    'claim.detail.bankCOA':"Bank COA",
+    'claim.detail.oppositeCOA':"Opposite COA",
+    'claim.detail.pleaseSelectAccounting':"请选择会计科目",
+    'claim.detail.exceedsLength':"备注超过最大长度1300字",
+    'claim.detail.accountingDetail':"Accounting Detail",
+    'claim.detail.addOppositeCOA':"Add Opposite COA",
+
+    //
+    'flow.approve.accountingDetail':"Accounting Detail",
+    'flow.approve.bankTransactionApproval':"Bank Transaction Approval",
+    'flow.approve.transaction':"Transaction",
+    'flow.approve.history':"History",
+    //
+    'flow.claim.list.claimSuccess':"Confirmed！",
+    'flow.claim.list.revocation':"撤销成功！",
+    'flow.claim.list.reconciled':"Reconciled",
+    'flow.claim.list.unreconcile':"Unreconcile",
+    'flow.claim.list.defaultNum':"默认显示流水条数",
+    'flow.claim.list.reconcile':"Reconcile",
+    'flow.claim.list.Unrecon':"Unreconcile",
+    'flow.claim.list.GATE_WAY': "GATE_WAY",
+    'flow.claim.list.MANUAL':"MANUAL",
+    'flow.claim.list.importTime':"Import Time",
+    'flow.claim.list.debit':"Debit Amount",
+    'flow.claim.list.crdit':"Credit Amount",
+    'flow.claim.list.bankSubtotal':"Bank Subtotal:",
+    'flow.claim.list.GLSubtotal':"GL Subtotal:",
+    //
+
+
+    //-----------psj-----------------------
+
+
+    'accountperiod.openPeriod':"Open Period",
+    'accountperiod.closePeriod':"Close Period",
+    'accountperiod.unopen':"unopen",
+    'accountperiod.opened':"opened",
+    'accountperiod.closed':"closed",
+    'accountperiod.closing':"closing",
+    'accountperiod.msg.nocheck':"您还没有勾选任何数据",
+    'accountperiod.msg.exist':"勾选状态中存在已打开状态，请重新选择！",
+    'accountperiod.msg.onlyOne.period':"同一OU只允许打开一个会计期！",
+    'accountperiod.msg.openSuccess':"Opened successfully",
+    'accountperiod.msg.closeSuccess':"Closed sucessfully",
+    'accountperiod.msg.closeFail':"Close failure",
+    'accountperiod.query':"Query",
+    'flow.claim.detail.transactionAmount':"Transaction Amount",
+    'flow.claim.detail.transactionDate':"Transaction Date",
+    'flow.claim.detail.operation':"Operation",
+    'flow.claim.detail.msg.ouQueryFail':"OU Query Failure",
+    'flow.claim.detail.summary':"Summary",
+    'flow.claim.detail.numberTransaction':"Number of Bank Transaction:",
+    'flow.claim.detail.numberERP':"Number of ERP Journal:",
+    'flow.claim.detail.pushToERP':"Push to ERP",
+    'flow.claim.detail.bankTransfer':"Bank Transfer",
+    'flow.claim.detail.numberBankTransfer':"Number of Bank Transfer:",
+    'flow.claim.detail.tobePushToERP':"Tobe Push to ERP"
+
+
+    //--------------
+
+
+};

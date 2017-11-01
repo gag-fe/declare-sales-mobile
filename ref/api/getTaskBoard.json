@@ -1,0 +1,72 @@
+{
+    "success": true,
+    "content": {
+        "startTime": "2015-12-22 00:00",
+        "endTime": "2015-12-26 00:00",
+        "taskRows": [
+            [
+                {
+                    "owner": "小强",
+                    "task": "完成A项目交接",
+                    "startTime": "2015-12-22 13:00",
+                    "endTime": "2015-12-22 13:40",
+                    "status": "done" // done|doing|delay|doing-delay|done-delay|todo
+                },
+                {
+                    "owner": "小强",
+                    "task": "完成A项目交接",
+                    "startTime":  "2015-12-23 15:00",
+                    "endTime":  "2015-12-23 16:00",
+                    "status": "delay"
+                },
+                {
+                    "owner": "小刚",
+                    "task": "完成A项目交接",
+                    "startTime":  "2015-12-24 9:00",
+                    "endTime":  "2015-12-24 10:30",
+                    "status": "done"
+                },
+                {
+                    "owner": "小文",
+                    "task": "完成A项目交接",
+                    "startTime":  "2015-12-24 10:40",
+                    "endTime":  "2015-12-24 11:50",
+                    "status": "todo"
+                }
+            ],
+            [
+                {
+                    "owner": "小强",
+                    "task": "完成A项目交接",
+                    "startTime": "2015-12-22 17:00",
+                    "endTime": "2015-12-22 22:40",
+                    "status": "done"
+                },
+                {
+                    "owner": "小强",
+                    "task": "完成A项目交接",
+                    "startTime":  "2015-12-23 23:00",
+                    "endTime":  "2015-12-23 23:50",
+                    "status": "done"
+                },
+                {
+                    "owner": "小强",
+                    "task": "完成A项目交接",
+                    "startTime":  "2015-12-24 10:00",
+                    "endTime":  "2015-12-24 23:50",
+                    "status": "doing"
+                },
+                {
+                    "owner": "小强",
+                    "task": "完成A项目交接",
+                    "startTime":  "2015-12-25 00:00",
+                    "endTime":  "2015-12-25 8:50",
+                    "status": "todo"
+                }
+            ]
+        ]
+    },
+    "error": {
+        "message": "error message"
+    }
+}
